@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Order placement </title>
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+    <h1>Place Order</h1>
+    <form class="registration-form" action="">
+      <label>Customer ID: <input type="text" name="customer_id" class="input-data" required /></label><br>
+      <label>Select Product:
+        <select name="product_id" class="input-data" required>
+          <option value="101">101 - Chair</option>
+          <option value="102">102 - Table</option>
+          <option value="103">103 - Sofa</option>
+          <option value="104">104 - Bed</option>
+        </select>
+      </label><br>
+      <label>Quantity: <input type="number" name="quantity" class="input-data" required /></label><br>
+      <button type="submit" class="submit-button">Place Order</button>
+    </form>
+    
+</body>
+</html>
